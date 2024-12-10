@@ -1,0 +1,2 @@
+ctrl + / add comment
+! > ctrl + space format dokumen bawaan html
