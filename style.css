@@ -53,6 +53,7 @@ body {
 .a-content {
     background-color: white;
     height: 50%;
+    width: 500px;
     display: flex;
     flex-direction: column;
     color: black;
