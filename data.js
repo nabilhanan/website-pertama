@@ -4,21 +4,26 @@ let usia = 24;
 function generateBiodata() {
     console.log(nama);
     console.log(usia);
+
+    let generasi;
+
     if (usia > 11 && usia < 18) { //if true
-        console.log('anda remaja');
+        generasi = "generasi remaja";
     }
     else if (usia > 18 && usia < 30) {
-        console.log('anda dewasa');
+        generasi = "generasi dewasa";
     }
     else if (usia > 30) {
-        console.log('anda tua');
+        generasi = "generasi tua";
     }
     else if (usia > 2 && usia < 11) {
-        console.log('anda anak-anak');
+        generasi = "generasi anak-anak";
     }
     else { //if false
-        console.log('anda bayi')
+        generasi = "generasi bayi";
     }
+
+    return console.log('generasi saya adalah', generasi);
 }
 
 
